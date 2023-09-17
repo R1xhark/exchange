@@ -6,7 +6,7 @@ from exchange import exchangeable_value
 
 timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
 
-log_dir = "/Users/macbook/Library/Application Support/JetBrains/PyCharm2023.2/scratches/Exersism/ExchangePackage/TestLogs"
+log_dir = "/Users/macbook/Library/Application Support/JetBrains/PyCharm2023.2/scratches/Exersism/ExchangePackage/TestLogs" # change to your actuall folder
 os.makedirs(log_dir,exist_ok=True)
 
 log_file_name = f"exchange_test_{timestamp}.log"
